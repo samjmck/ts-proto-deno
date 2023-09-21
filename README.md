@@ -15,8 +15,8 @@ Run the following to fix the imports:
 ```bash
 # macOS
 sed -i '' 's/protobufjs\/minimal\.ts/protobufjs\/minimal\.js/g' out/*.ts
-sed -i 's/protobufjs\/minimal\.ts/protobufjs\/minimal\.js/g' out/*.ts
 # other UNIX systems
+sed -i 's/protobufjs\/minimal\.ts/protobufjs\/minimal\.js/g' out/*.ts
 ```
 
 

@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "protobufjs/minimal.ts": "npm:protobufjs/minimal.js",
+    "long": "npm:long"
+  }
+}

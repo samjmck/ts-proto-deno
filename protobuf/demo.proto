@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package demo;
+
+import "money.proto";
+import "google/protobuf/timestamp.proto";
+
+message Transaction {
+  google.protobuf.Timestamp time = 1;
+  Money value = 2;
+}
